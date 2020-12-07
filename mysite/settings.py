@@ -144,7 +144,7 @@ ACCOUNT_EMAIL_VERIFICATION = 'none'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-if not DEBUG:
+if DEBUG is False:
     SECRET_KEY = os.environ['SECRET_KEY'] # 追加
     import django_heroku
     django_heroku.settings(locals())
