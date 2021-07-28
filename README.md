@@ -1,5 +1,5 @@
 # blog
-
+herokuデプロイ時のエラー(未解決)
 Error: 
 You do not have permission to view logs on blog. You need to have the operate permission on this app.
 ⇩
